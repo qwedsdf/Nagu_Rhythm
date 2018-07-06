@@ -1,0 +1,29 @@
+﻿2017/08/12 18:02:37 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\kotor\Desktop\musicgame\musicgame.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt arcade_controller.cpp date.cpp Flow.cpp flow_game.cpp KEY.cpp main.cpp notes.cpp note_memory.cpp
+         arcade_controller.cpp
+         date.cpp
+         Flow.cpp
+         flow_game.cpp
+         KEY.cpp
+         main.cpp
+         notes.cpp
+         note_memory.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kotor\Desktop\musicgame\Release\musicgame.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kotor\Desktop\musicgame\Release\musicgame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kotor\Desktop\musicgame\Release\musicgame.lib" /MACHINE:X86 /SAFESEH Release\arcade_controller.obj
+         Release\date.obj
+         Release\Flow.obj
+         Release\flow_game.obj
+         Release\KEY.obj
+         Release\main.obj
+         Release\notes.obj
+         Release\note_memory.obj
+         コード生成しています。
+         コード生成が終了しました。
+         musicgame.vcxproj -> C:\Users\kotor\Desktop\musicgame\Release\musicgame.exe
+     1>プロジェクト "C:\Users\kotor\Desktop\musicgame\musicgame.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:08.27

@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲーム">
+      <UniqueIdentifier>{d80412b1-5edb-4a86-b3de-fa9df414c9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\操作関連">
+      <UniqueIdentifier>{fc5fc0ba-fac1-4bd6-a5e6-87d8950f81d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\譜面作成用">
+      <UniqueIdentifier>{89acf9ba-0a78-47d8-8924-cf4458351de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ゲーム">
+      <UniqueIdentifier>{6e9fa651-8df3-4a4d-bb77-dbf4b1400601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\操作関連">
+      <UniqueIdentifier>{078c5f9f-6ae2-47f1-a8b1-2ee2eda27bed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\譜面作成用">
+      <UniqueIdentifier>{b2c9d1f6-dae4-4828-b638-8f699ca45e5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="flow_game.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="flow_move.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="Flow.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="selectf.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="notes.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="arcade_controller.cpp">
+      <Filter>ソース ファイル\操作関連</Filter>
+    </ClCompile>
+    <ClCompile Include="KEY.cpp">
+      <Filter>ソース ファイル\操作関連</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_made.cpp">
+      <Filter>ソース ファイル\譜面作成用</Filter>
+    </ClCompile>
+    <ClCompile Include="note_memory.cpp">
+      <Filter>ソース ファイル\譜面作成用</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="date.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+    <ClCompile Include="flow_load.cpp">
+      <Filter>ソース ファイル\ゲーム</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="date.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Flow.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="flow_game.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="flow_move.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="notes.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="selectf.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+    <ClInclude Include="arcade_controller.h">
+      <Filter>ヘッダー ファイル\操作関連</Filter>
+    </ClInclude>
+    <ClInclude Include="KEY.h">
+      <Filter>ヘッダー ファイル\操作関連</Filter>
+    </ClInclude>
+    <ClInclude Include="hand_made.h">
+      <Filter>ヘッダー ファイル\譜面作成用</Filter>
+    </ClInclude>
+    <ClInclude Include="note_memory.h">
+      <Filter>ヘッダー ファイル\譜面作成用</Filter>
+    </ClInclude>
+    <ClInclude Include="flow_load.h">
+      <Filter>ヘッダー ファイル\ゲーム</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

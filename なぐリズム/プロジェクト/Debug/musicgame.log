@@ -1,0 +1,38 @@
+﻿2018/05/11 13:52:25 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\DELL\Desktop\Aiming様提出用\饒波光規20180506\なぐリズム\プロジェクト\musicgame.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /I"D:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Time.cpp flow_game.cpp hand_made.cpp main.cpp note_memory.cpp notes.cpp result.cpp selectf.cpp title.cpp
+         Time.cpp
+         コードを生成中...
+         コンパイル中...
+         title.cpp
+         selectf.cpp
+         result.cpp
+         notes.cpp
+         note_memory.cpp
+         main.cpp
+         hand_made.cpp
+         flow_game.cpp
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DELL\Desktop\Aiming様提出用\饒波光規20180506\なぐリズム\プロジェクト\Debug\musicgame.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" /LIBPATH:"D:\DxLib_VC\プロジェクトに追加すべきファイル_VC用" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DELL\Desktop\Aiming様提出用\饒波光規20180506\なぐリズム\プロジェクト\Debug\musicgame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DELL\Desktop\Aiming様提出用\饒波光規20180506\なぐリズム\プロジェクト\Debug\musicgame.lib" /MACHINE:X86 Debug\arcade_controller.obj
+         Debug\date.obj
+         Debug\Flow.obj
+         Debug\flow_game.obj
+         Debug\flow_load.obj
+         Debug\flow_move.obj
+         Debug\hand_made.obj
+         Debug\KEY.obj
+         Debug\main.obj
+         Debug\notes.obj
+         Debug\note_memory.obj
+         Debug\result.obj
+         Debug\selectf.obj
+         Debug\Time.obj
+         Debug\title.obj
+         musicgame.vcxproj -> C:\Users\DELL\Desktop\Aiming様提出用\饒波光規20180506\なぐリズム\プロジェクト\Debug\musicgame.exe
+     1>プロジェクト "C:\Users\DELL\Desktop\Aiming様提出用\饒波光規20180506\なぐリズム\プロジェクト\musicgame.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:06.89
